@@ -8,16 +8,25 @@
     box-sizing: border-box;
 }
 
+
+
 /* Default Font-family */
 
 html{
     font-family:var(--ff-inter) ;
 }
 
+
+
+
 /* All heading Color */
 h1,h2,h3,h4,h5,h6{
     color:var(--white);
 }
+
+
+
+
 
 /* Add default background color
 Inprove text rendering */
@@ -27,6 +36,11 @@ body{
     color: var(--off-white);
     /* --webkit-font-smoothing: antialiased; */
 }
+
+
+
+
+
 /* Change default imges */
 img{
     display: block;
@@ -35,4 +49,52 @@ img{
     pointer-events: none;
     object-fit: cover;
 }
+
+
+
+
 /* Remove Form default */
+input, button, select{
+    font: inherit;
+    background: none;
+    border: none;
+    outline: none;
+
+}
+
+
+
+/* Add button default */
+button{
+    color: var(--off-white);
+    cursor: pointer;
+}
+
+
+
+/* Remove list iten marker */
+li{
+    list-style: none;
+}
+
+
+
+/* Change link default */
+a{
+    text-decoration: none;
+    display: block;
+    color: var(--off-white);
+}
+
+
+
+/* Change default scrolbar style */
+::-webkit-scrollbar{
+    background: transparent;
+    border-left: 1px solid var(--oxford-blue);
+}
+::-webkit-scrollbar-thumb{
+    background: var( --light-azure);
+    border-radius: 5em;
+    border: 3px solid var( --rich-black-fogra-29);
+}

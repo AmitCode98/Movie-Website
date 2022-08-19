@@ -1,3 +1,5 @@
-h1{
-color: blue;    
-}
+/* Import or link variable.css file */
+@import url(/css/variable.css);
+
+/*Import or link reset.css file */
+@import url(/css/reset.css);
