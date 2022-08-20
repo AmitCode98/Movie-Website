@@ -3,3 +3,232 @@
 
 /*Import or link reset.css file */
 @import url(/css/reset.css);
+
+
+
+
+
+
+/* Reuse Css style Code */
+
+header,nav{
+    background: var(--rich-black-fogra-29);
+    /* background: red; */
+}
+.navbar,
+.banner{
+    padding: 0 var(--px);
+}
+
+
+
+/* Main container Style */
+.container{
+    max-width:1440px;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+
+/* main navbar desigen or style */
+.navbar{
+    height: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+/* Small Screen menu button style */
+.navbar-menu-btn{
+    /* border: 1px solid red; */
+    /* background-color: blue; */
+    display: none;
+}
+
+/* Navbar navigation style  */
+nav{
+    margin-right: 200px;
+
+}
+.navbar-nav{
+    display: flex;
+}
+/* #Rindicator{
+    margin-right: 60px;
+    background-color: red;
+} */
+.navbar-nav li:not(:last-child){
+    margin-right: 60px;
+}
+
+.navbar-link{
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-5);
+}
+.navbar-link:hover{
+    color: var(--light-azure);
+}
+
+
+/* live indicator style */
+
+.indicator{
+    position: relative;
+}
+.indicator::after{
+    content: " ";
+    background: var(--live-indicator);
+    /* background: var(--blue); */
+    position: absolute;
+    top:calc(50% - 1px);
+    /* top:calc(50% -); */
+    right: -15px;
+    width: 4px;
+    height: 4px;
+    box-shadow: 0 0 0 2px var(--live-indicator-shadow);
+    border-radius: 5px;
+}
+
+/* Navbar Form and Button style */
+
+.navbar-actions{
+    display: flex;
+    align-items: center;
+}
+.navbar-form{
+    position: relative;
+    margin-right: 50px;
+    /* border: 1px solid red; */
+}
+.navbar-form-search{
+    background: var(--oxford-blue);
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 15px;
+    color: var(--off-white);
+    font-size: var( --fs-sm);
+    font-weight: var(--fw-5);
+}
+.navbar-form-btn{
+    background: var(--oxford-blue);
+    position: absolute;
+    top: calc(50% - 10px);
+    right: 10px;
+
+}
+.navbar-form-btn ion-icon,
+.navbar-form-btn ,ion-icon{
+    font-size: 20px;
+    color: var(--light-azure);
+    --ionicon-strock-width:50px;
+    /* width: var(--ionicon-strock-width); */
+}
+.navbar-form-btn:hover ion-icon,
+.navbar-form-search::placeholder{
+    color: var(--off-white);
+
+}
+
+/* Navbar-form close button & navbar search button
+for all device */
+
+.navbar-form-close,
+.navbar-search-btn{
+    display: none;
+    /* display: flex; */
+}
+.navbar-signin{
+    display: flex;
+    align-items: center;
+    font-size: var(--fs-sm);
+}
+.navbar-signin ion-icon{
+    font-size: 22px;
+    color:var(--light-azure);
+    margin-left: 5px;
+    --iconicon-stroke-width:30px;
+
+}
+.navbar-signin:hover span{
+    color: var(--light-azure);
+}
+
+
+
+
+
+
+/* Banner Card Style */
+
+.banner{
+    margin-bottom: 60px;
+    /* border: 1px solid blue; */
+}
+.banner-card{
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+.banner-img{
+    /* object-position: top; */
+    object-position: 35% 35%;
+}
+.banner-card:hover .banner-img{
+    transform: scale(1.1);
+}
+/* .banner-card .banner-img:hover{
+    transform: scale(1.1);
+} */
+
+.banner-card .card-content{
+    position: absolute;
+    right: 80px;
+    bottom: 60px;
+    left: 80px;
+    /* border: 1px solid yellow; */
+}
+
+.banner-card .card-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.banner-card .card-info div{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+
+}
+.banner-card .card-info ion-icon{
+    font-size: 20px;
+    color: var(--azure);
+    margin-right: 5px;
+}
+.banner-card .card-info span{
+    font-weight: var(--fw-6);
+}
+.banner-card .card-info .quality{
+    /* color: red; */
+    background: var(--azure);
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-weight: var(--fw-7);
+}
+
+.banner-card .card-title{
+    font-size: 2.5em;
+    color: var(--white);
+    text-shadow: 6px 0 6px #0007;
+    /* text-shadow: 6px 0 6px rgb(255, 0, 0); */
+}
+
+
+
+
+
+

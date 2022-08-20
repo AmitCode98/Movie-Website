@@ -14,9 +14,91 @@
 
 </head>
 <body>
-    <h1>
-        AmiFlix
-    </h1>
+    <!-- main container -->
+    <div class="container">
+        <!-- header section -->
+        <header>
+            <div class="navbar">
+                <!-- menu button for small screen -->
+                <button class="navbar-menu-btn">
+                    <span></span><span></span><span></span>
+                </button>
+                <a href="#" class="navbar-brand">
+                    <img src="./images/logo.png" alt="">
+                </a>
+
+                <!-- Navbar navigation -->
+                <nav>
+                    <ul class="navbar-nav">
+                        <li><a href="#" class="navbar-link">Home</a></li>
+                        <li><a href="#" class="navbar-link">Category</a></li>
+                        <li><a href="#" class="navbar-link indicator ">LIVE</a></li>
+                    </ul>
+                </nav>
+
+
+                      <!-- search and sign-in section-->
+                <div class="navbar-actions">
+                    <form action="#" class="navbar-form">
+                        <input type="text" name="search" class="navbar-form-search"placeholder="I'm Looking for....."autocomplete="off">
+                   
+                        
+                        <button class="navbar-form-btn">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </button>
+                        <button class="navbar-form-close">
+                        <button class="navbar-form-close">
+                            <ion-icon name="close-circle-outline"></ion-icon>
+                        </button>
+                    </form>
+
+                    <!-- search button for small screen -->
+                    <button class="navbar-search-btn">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </button>
+                    <a href="#" class="navbar-signin">
+                        <span>Sign in</span>
+                        <ion-icon name="log-in-outline"></ion-icon>
+                    </a>
+                </div>
+
+                 <!-- search and loge-in section-->
+
+
+
+            </div>
+        </header>
+
+
+        <!-- main Section -->
+        <main>
+            <!-- Banner Section -->
+            <section class="banner">
+                <div class="banner-card">
+                    <img src="./images/Jurassic Park1.jpg" alt="banner-img" class="banner-img">
+
+                    <div class="card-content">
+                        <div class="card-info">
+                            <div class="genre">
+                                <ion-icon name="film-outline"></ion-icon>
+                                <span>Action/Thriller</span>
+                            </div>
+                            <div class="year">
+                                <ion-icon name="calendar-outline"></ion-icon>
+                                <span>2019</span>
+                            </div>
+                            <div class="duration">
+                                <ion-icon name="time-outline"></ion-icon>
+                                <span>2h 11m</span>
+                            </div>
+                            <div class="quality">4k</div>
+                        </div>
+                        <div class="card-title">Jurassic Park Restore</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
 
 
     <!-- Icon Link from ionicons -->
