@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +11,11 @@
     <link rel="stylesheet" href="/css/variable.css">
 
     <!-- Google Font Link -->
-    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900"
+        rel="stylesheet" />
 
 </head>
+
 <body>
     <!-- main container -->
     <div class="container">
@@ -37,19 +40,20 @@
                 </nav>
 
 
-                      <!-- search and sign-in section-->
+                <!-- search and sign-in section-->
                 <div class="navbar-actions">
                     <form action="#" class="navbar-form">
-                        <input type="text" name="search" class="navbar-form-search"placeholder="I'm Looking for....."autocomplete="off">
-                   
-                        
+                        <input type="text" name="search" class="navbar-form-search" placeholder="I'm Looking for....."
+                            autocomplete="off">
+
+
                         <button class="navbar-form-btn">
                             <ion-icon name="search-outline"></ion-icon>
                         </button>
                         <button class="navbar-form-close">
-                        <button class="navbar-form-close">
-                            <ion-icon name="close-circle-outline"></ion-icon>
-                        </button>
+                            <button class="navbar-form-close">
+                                <ion-icon name="close-circle-outline"></ion-icon>
+                            </button>
                     </form>
 
                     <!-- search button for small screen -->
@@ -62,7 +66,7 @@
                     </a>
                 </div>
 
-                 <!-- search and loge-in section-->
+                <!-- search and loge-in section-->
 
 
 
@@ -75,7 +79,7 @@
             <!-- Banner Section -->
             <section class="banner">
                 <div class="banner-card">
-                    <img src="./images/Jurassic Park1.jpg" alt="banner-img" class="banner-img">
+                    <img src="/images/movies 2/Incredible 2 cover.jpeg" alt="banner-img" class="banner-img">
 
                     <div class="card-content">
                         <div class="card-info">
@@ -85,7 +89,7 @@
                             </div>
                             <div class="year">
                                 <ion-icon name="calendar-outline"></ion-icon>
-                                <span>2019</span>
+                                <span>2018</span>
                             </div>
                             <div class="duration">
                                 <ion-icon name="time-outline"></ion-icon>
@@ -93,9 +97,704 @@
                             </div>
                             <div class="quality">4k</div>
                         </div>
-                        <div class="card-title">Jurassic Park Restore</div>
+                        <div class="card-title">Aquman</div>
                     </div>
                 </div>
+            </section>
+
+
+            <!-- Movies Section -->
+            <section class="movies">
+                <!-- Filter Bar Section -->
+                <div class="filter-bar">
+                    <div class="filter-dropdowns">
+                        <select name="genre" class="genre">
+                            <option value="All genres">All genres</option>
+                            <option value="Action">Action</option>
+                            <option value="All genres">Adventure</option>
+                            <option value="All genres">Animal</option>
+                            <option value="All genres">Biography</option>
+                        </select>
+                        <select name="year" class="year">
+                            <option value="All years">All the years</option>
+                            <option value="2022">2022</option>
+                            <option value="2020-2021">2020-2021</option>
+                            <option value="2010-2019">2010-2019</option>
+                            <option value="2000-2009">2000-2009</option>
+                            <option value="1989-1999">1989-1999</option>
+                        </select>
+                    </div>
+                    <div class="filter-radios">
+                        <input type="radio" name="grade" id="featured" checked>
+                        <label for="featured" id="checked">Featured</label>
+
+                        <input type="radio" name="grade" id="popular">
+                        <label for="popular">Popular</label>
+
+                        <input type="radio" name="grade" id="newest">
+                        <label for="newest">Newest</label>
+
+                        <div class="checked-radio-bg"></div>
+                    </div>
+                </div>
+
+
+                <!-- Movies Grid Section -->
+                <div class="movies-grid">
+                                              <!-- Movies:1 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/Warcraft.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>6.4</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Warcraft</h3>
+                            <div class="card-info">
+                                <span class="genre">Action</span>
+                                <span class="year">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                                                   <!-- Movies:2 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/Thor-the-dark-world.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>7.1</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Thor-the-dark-world</h3>
+                            <div class="card-info">
+                                <span class="genre">Action/Comedy</span>
+                                <span class="year">2015</span>
+                            </div>
+                        </div>
+                    </div>
+                                                    <!-- Movies:3 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/The Northman.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>8.4</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">The Northman</h3>
+                            <div class="card-info">
+                                <span class="genre">Action</span>
+                                <span class="year">2022</span>
+                            </div>
+                        </div>
+                    </div>
+                                                    <!-- Movies:4 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/The-amazing-spiderman-2.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>7.1</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">The amazing spiderman 2</h3>
+                            <div class="card-info">
+                                <span class="genre">Action/Comedy</span>
+                                <span class="year">2015</span>
+                            </div>
+                        </div>
+                    </div>
+                                                <!-- Movies:5 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/Guardians-of-the-galaxy.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>6.8</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Guardians of the galaxy vol 1</h3>
+                            <div class="card-info">
+                                <span class="genre">Action/Comedy</span>
+                                <span class="year">2020</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Movies:6 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/antman-1.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>8.3</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Antman 1</h3>
+                            <div class="card-info">
+                                <span class="genre">Action/Comedy</span>
+                                <span class="year">2020</span>
+                            </div>
+                        </div>
+                    </div>
+                                               <!-- Movies:7 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies/matrix.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>6.4</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Matrix</h3>
+                            <div class="card-info">
+                                <span class="genre">Action</span>
+                                <span class="year">2021</span>
+                            </div>
+                        </div>
+                    </div>
+
+                                                     <!-- Movie:8 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/cherry.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>6.5</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Cherry</h3>
+                            <div class="card-info">
+                                <span class="genre">Sci-Fi</span>
+                                <span class="year">2014</span>
+                            </div>
+                        </div>
+                    </div>
+
+                                                   <!-- Movies:9 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/Ice Age.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>6.1</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Ice age dawn of the dinosaurs</h3>
+                            <div class="card-info">
+                                <span class="genre">Animation</span>
+                                <span class="year">2019</span>
+                            </div>
+                        </div>
+                    </div>
+                                                <!-- Movies:10 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/Ramayana.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>6.7</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Ramayana</h3>
+                            <div class="card-info">
+                                <span class="genre">Animation</span>
+                                <span class="year">2009</span>
+                            </div>
+                        </div>
+                    </div>
+                                                    <!-- Movies:11 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies/captain-marvel.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>5.8</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Captain Marvel</h3>
+                            <div class="card-info">
+                                <span class="genre">Action</span>
+                                <span class="year">2021</span>
+                            </div>
+                        </div>
+                    </div>
+                                                    <!-- Movies:12 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies/eternals.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>8.1</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Insterstaller</h3>
+                            <div class="card-info">
+                                <span class="genre">Action</span>
+                                <span class="year">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                                                  <!-- Movies:13 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/Avatar.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>9.1</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Avatar</h3>
+                            <div class="card-info">
+                                <span class="genre">Action</span>
+                                <span class="year">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                                                  <!-- Movies:14 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/Aquman.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>5.4</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Aquman</h3>
+                            <div class="card-info">
+                                <span class="genre">Action/Comedy</span>
+                                <span class="year">2020</span>
+                            </div>
+                        </div>
+                    </div>
+                                                <!-- Movies:15 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/Batman 2022.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>7.4</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Batman</h3>
+                            <div class="card-info">
+                                <span class="genre">Action</span>
+                                <span class="year">2022</span>
+                            </div>
+                        </div>
+                    </div>
+                                                     <!-- Movies:16 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/Bumblebee.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>6.4</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Bumblebee</h3>
+                            <div class="card-info">
+                                <span class="genre">Action/Comedy</span>
+                                <span class="year">2017</span>
+                            </div>
+                        </div>
+                    </div>
+                                                    <!-- Movies:17 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/Ant-man-and-the-wasp.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>6.1</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Antman and the wasp</h3>
+                            <div class="card-info">
+                                <span class="genre">Action/Comedy</span>
+                                <span class="year">2018</span>
+                            </div>
+                        </div>
+                    </div>
+                                                    <!-- Movies:18 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/Freedom.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>5.7</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Freedom</h3>
+                            <div class="card-info">
+                                <span class="genre">Action</span>
+                                <span class="year">2015</span>
+                            </div>
+                        </div>
+                    </div>
+                                                   <!-- Movies:19 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/Jurrassic Park 1.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>8.1</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Jurrassic Park</h3>
+                            <div class="card-info">
+                                <span class="genre">Action</span>
+                                <span class="year">1998</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Movies:20 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/Shang Chi.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>7.3</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Shang Chi</h3>
+                            <div class="card-info">
+                                <span class="genre">Action/Comedy</span>
+                                <span class="year">2022</span>
+                            </div>
+                        </div>
+                    </div>
+                                                  <!-- Movies:21 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/Godzilla vs Kong.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>7.1</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Godzilla vs Kong</h3>
+                            <div class="card-info">
+                                <span class="genre">Action</span>
+                                <span class="year">2021</span>
+                            </div>
+                        </div>
+                    </div>
+                                                   <!-- Movies:22 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/ironman-1.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>6.4</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Ironman</h3>
+                            <div class="card-info">
+                                <span class="genre">Action</span>
+                                <span class="year">2013</span>
+                            </div>
+                        </div>
+                    </div>
+                                                  <!-- Movies:23 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/Captain Marvel.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>5.6</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Captain Marvel</h3>
+                            <div class="card-info">
+                                <span class="genre">Action</span>
+                                <span class="year">2020</span>
+                            </div>
+                        </div>
+                    </div>
+                                                  <!-- Movies:24 -->
+                    <div class="movie-card">
+
+                        <div class="card-head">
+                            <img src="/images/movies 2/Ramayana.jpg" alt="img" class="card-img">
+
+                            <div class="card-overlay">
+                                <div class="bookmark">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                                <div class="rating">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                    <span>8.1</span>
+                                </div>
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Ramayana</h3>
+                            <div class="card-info">
+                                <span class="genre">Animation</span>
+                                <span class="year">2014</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
             </section>
         </main>
     </div>
@@ -103,6 +802,7 @@
 
     <!-- Icon Link from ionicons -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
