@@ -558,7 +558,9 @@ for all device */
 .live-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3,1fr);
   gap: 30px;
+  gap: 15px;
 }
 
 .live-card { cursor: pointer; }
@@ -566,7 +568,9 @@ for all device */
 .live-card .card-head {
   position: relative;
   height: 250px;
-  border-radius: 20px;
+  height: 210px;
+  /* border-radius: 20px; */
+  border-radius: 7px;
   margin-bottom: 15px;
   overflow: hidden;
 }
@@ -637,6 +641,7 @@ for all device */
 
 .live-card .card-title {
   font-size: var(--fs-lg);
+  font-size: 18px;
   font-weight: var(--fw-5);
 }
 
