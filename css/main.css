@@ -5,7 +5,9 @@
 @import url(/css/reset.css);
 
 
-
+/* *{
+    scroll-behavior: smooth;
+} */
 
 
 
@@ -486,7 +488,8 @@ for all device */
 .section-heading{
     font-size: var(--section-heading);
     font-weight: var(--fw-5);
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
+    margin-bottom: 35px;
 }
 
 .category{

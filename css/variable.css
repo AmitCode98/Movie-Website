@@ -20,7 +20,8 @@
     /* Typograph */
     /* --ff-inter: */
     --ff-inter: 'Poppins', sans-serif;
-    --section-heading:40px;
+    /* --section-heading:40px; */
+    --section-heading:32px;
     --fs-lg:22px;
     --fs-md:17px;
     --fs-sm:14px;
